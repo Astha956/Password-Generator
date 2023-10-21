@@ -1,0 +1,101 @@
+/* Apply styles to the body element */
+body {
+    background-color: #f3f3f3; /* Light gray background */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container */
+.container {
+    background-color: #fff; /* White background for the container */
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation effect */
+}
+
+/* Style the header */
+h1 {
+    color: #007bff; /* Blue text color for the header */
+}
+
+/* Style the password input and display */
+input[data-passwordDisplay] {
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Style the button */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Style the checkboxes and labels */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+label {
+    color: #555;
+}
+
+/* Style the slider input */
+input[data-lengthSlider] {
+    width: 40%;
+    margin-top: 10px;
+}
+
+/* Strength indicator */
+.strength-container {
+    color: #007bff; /* Blue text color */
+    margin-top: 15px;
+}
+
+/* Style the strength indicator bar */
+[data-indicator] {
+    height: 10px;
+    background-color: #b3e0ff; /* Light blue bar */
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Style the generate password button */
+.generateButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Style the labels for checkboxes */
+label {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Apply styles to the slider track */
+input[data-lengthSlider]::-webkit-slider-thumb {
+    background-color: #007bff; /* Blue slider thumb */
+}
+
+/* Adjust the color of the copied message */
+[data-copyMsg] {
+    color: #007bff;
+}
